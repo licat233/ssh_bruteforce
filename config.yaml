@@ -1,0 +1,15 @@
+target_ip: 192.168.31.1
+target_port: 22
+target_username: root
+thread_num: 50
+timeout: 5
+max_count: 0
+max_time: 0
+# 攻击策略配置
+use_dictionary: true  # 是否启用字典攻击（推荐开启，可大幅提高效率）
+redis:
+    enabled: false
+    host: ""
+    port: 0
+    password: ""
+    db: 0

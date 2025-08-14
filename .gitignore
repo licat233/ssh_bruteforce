@@ -1,0 +1,45 @@
+# 编译后的二进制文件
+ssh_bruteforce
+
+# 密码相关文件
+password.txt
+test_passwords.txt
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE文件
+.vscode/
+.idea/
+
+# macOS文件
+.DS_Store
+
+# Go相关
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试覆盖率文件
+*.out
+
+# 依赖目录
+vendor/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 备份文件
+*.bak
+*.backup
+
+# 配置文件备份
+config.yaml.bak
